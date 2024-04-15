@@ -28,7 +28,7 @@ async fn empty_dir(dir: String) -> Result<()> {
           tokio::fs::remove_dir_all(path).await.unwrap();
         } else {
           
-          tokio::fs::remove_file(path).await;
+          tokio::fs::remove_file(path).await?;
         }
       }
     }

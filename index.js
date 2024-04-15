@@ -234,7 +234,8 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { plus100, ensureDir } = nativeBinding
+const { plus100, ensureDir, emptyDir } = nativeBinding
 
 module.exports.plus100 = plus100
 module.exports.ensureDir = ensureDir
+module.exports.emptyDir = emptyDir

@@ -5,3 +5,4 @@
 
 export function plus100(input: number): number
 export function ensureDir(dir: string): Promise<void>
+export function emptyDir(dir: string): Promise<void>
