@@ -18,7 +18,7 @@
     "index.js"
   ],
   "napi": {
-    "name": "napi-fs",
+    "name": "@napi-fs/fs",
     "triples": {
       "defaults": true,
       "additional": [
@@ -109,18 +109,18 @@
   },
   "packageManager": "yarn@4.1.1",
   "optionalDependencies": {
-    "@napi-fs/fs-win32-x64-msvc": "1.1.0",
-    "@napi-fs/fs-darwin-x64": "1.1.0",
-    "@napi-fs/fs-linux-x64-gnu": "1.1.0",
-    "@napi-fs/fs-linux-x64-musl": "1.1.0",
-    "@napi-fs/fs-linux-arm64-gnu": "1.1.0",
-    "@napi-fs/fs-win32-ia32-msvc": "1.1.0",
-    "@napi-fs/fs-linux-arm-gnueabihf": "1.1.0",
-    "@napi-fs/fs-darwin-arm64": "1.1.0",
-    "@napi-fs/fs-android-arm64": "1.1.0",
-    "@napi-fs/fs-freebsd-x64": "1.1.0",
-    "@napi-fs/fs-linux-arm64-musl": "1.1.0",
-    "@napi-fs/fs-win32-arm64-msvc": "1.1.0",
-    "@napi-fs/fs-android-arm-eabi": "1.1.0"
+    "napi-fs-win32-x64-msvc": "1.1.0",
+    "napi-fs-darwin-x64": "1.1.0",
+    "napi-fs-linux-x64-gnu": "1.1.0",
+    "napi-fs-linux-x64-musl": "1.1.0",
+    "napi-fs-linux-arm64-gnu": "1.1.0",
+    "napi-fs-win32-ia32-msvc": "1.1.0",
+    "napi-fs-linux-arm-gnueabihf": "1.1.0",
+    "napi-fs-darwin-arm64": "1.1.0",
+    "napi-fs-android-arm64": "1.1.0",
+    "napi-fs-freebsd-x64": "1.1.0",
+    "napi-fs-linux-arm64-musl": "1.1.0",
+    "napi-fs-win32-arm64-msvc": "1.1.0",
+    "napi-fs-android-arm-eabi": "1.1.0"
   }
 }
