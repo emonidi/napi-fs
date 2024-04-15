@@ -1,5 +1,5 @@
 {
-  "name": "napi-fs",
+  "name": "@napi-fs/fs",
   "version": "1.1.0",
   "description": "Template project for writing node package with napi-rs",
   "main": "index.js",
@@ -22,16 +22,16 @@
     "triples": {
       "defaults": true,
       "additional": [
-        "x86_64-unknown-linux-musl",
-        "aarch64-unknown-linux-gnu",
-        "i686-pc-windows-msvc",
-        "armv7-unknown-linux-gnueabihf",
-        "aarch64-apple-darwin",
-        "aarch64-linux-android",
-        "x86_64-unknown-freebsd",
-        "aarch64-unknown-linux-musl",
-        "aarch64-pc-windows-msvc",
-        "armv7-linux-androideabi"
+        "@napi-fs/x86_64-unknown-linux-musl",
+        "@napi-fs/aarch64-unknown-linux-gnu",
+        "@napi-fs/i686-pc-windows-msvc",
+        "@napi-fs/armv7-unknown-linux-gnueabihf",
+        "@napi-fs/aarch64-apple-darwin",
+        "@napi-fs/aarch64-linux-android",
+        "@napi-fs/x86_64-unknown-freebsd",
+        "@napi-fs/aarch64-unknown-linux-musl",
+        "@napi-fs/aarch64-pc-windows-msvc",
+        "@napi-fs/armv7-linux-androideabi"
       ]
     }
   },
@@ -107,5 +107,20 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.1.1",
+  "optionalDependencies": {
+    "@napi-fs/fs-win32-x64-msvc": "1.1.0",
+    "@napi-fs/fs-darwin-x64": "1.1.0",
+    "@napi-fs/fs-linux-x64-gnu": "1.1.0",
+    "@napi-fs/fs-linux-x64-musl": "1.1.0",
+    "@napi-fs/fs-linux-arm64-gnu": "1.1.0",
+    "@napi-fs/fs-win32-ia32-msvc": "1.1.0",
+    "@napi-fs/fs-linux-arm-gnueabihf": "1.1.0",
+    "@napi-fs/fs-darwin-arm64": "1.1.0",
+    "@napi-fs/fs-android-arm64": "1.1.0",
+    "@napi-fs/fs-freebsd-x64": "1.1.0",
+    "@napi-fs/fs-linux-arm64-musl": "1.1.0",
+    "@napi-fs/fs-win32-arm64-msvc": "1.1.0",
+    "@napi-fs/fs-android-arm-eabi": "1.1.0"
+  }
 }
