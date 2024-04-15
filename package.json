@@ -22,16 +22,16 @@
     "triples": {
       "defaults": true,
       "additional": [
-        "@napi-fs/x86_64-unknown-linux-musl",
-        "@napi-fs/aarch64-unknown-linux-gnu",
-        "@napi-fs/i686-pc-windows-msvc",
-        "@napi-fs/armv7-unknown-linux-gnueabihf",
-        "@napi-fs/aarch64-apple-darwin",
-        "@napi-fs/aarch64-linux-android",
-        "@napi-fs/x86_64-unknown-freebsd",
-        "@napi-fs/aarch64-unknown-linux-musl",
-        "@napi-fs/aarch64-pc-windows-msvc",
-        "@napi-fs/armv7-linux-androideabi"
+        "x86_64-unknown-linux-musl",
+        "aarch64-unknown-linux-gnu",
+        "i686-pc-windows-msvc",
+        "armv7-unknown-linux-gnueabihf",
+        "aarch64-apple-darwin",
+        "aarch64-linux-android",
+        "x86_64-unknown-freebsd",
+        "aarch64-unknown-linux-musl",
+        "aarch64-pc-windows-msvc",
+        "armv7-linux-androideabi"
       ]
     }
   },
